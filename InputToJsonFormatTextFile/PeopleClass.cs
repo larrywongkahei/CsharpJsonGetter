@@ -1,5 +1,5 @@
 ﻿using System;
-namespace InputToJsonFormatTextFile
+namespace InputToJson
 {
     public class PeopleClass
     {

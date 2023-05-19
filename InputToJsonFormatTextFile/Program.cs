@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-namespace InputToJsonFormatTextFile
+namespace InputToJson
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace InputToJsonFormatTextFile
             List<ProductClass> productList = new List<ProductClass>();
             List<PeopleClass> peopleList = new List<PeopleClass>();
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string filename = @"theJsondata.txt";
+            string filename = @"theJsondata.json";
             string path = Path.Combine(desktopPath, filename);
             string jsondata = "";
             Console.WriteLine("What type of data do you want to convert to Json?");

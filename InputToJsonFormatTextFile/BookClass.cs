@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace InputToJsonFormatTextFile
+namespace InputToJson
 {
     public class BookClass
     {
